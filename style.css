@@ -14,36 +14,61 @@ body{
        background-repeat: no-repeat;
     }
 center{
-    text-align: center;
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .listProdutos{
     padding: 10px;
 }
-.listProdutos > h1 {
+.center > h1 {
     color: white;
     font-size: 40px;
 }
 .listProdutos > li{
     margin-top: 15px;
     margin-bottom: 15px;
+    list-style: none;
+    color: white;
+
 }
 .listProdutos ol{
     padding: 5px;    
 }
-#res{
-    padding-left:100px ;
+.input1{
+    border-radius: 50px;
 }
-#bts{
+.botaoValor{
+    width: 80px;
+    border-radius: 50px;
+    border-color: none;
+}
+.simOuNao{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display:none;
+}
+#img{
+    margin-left: 22%;
+    display: none;
+    text-align: center;
+}
+#img2{
+    margin-left: 22%;
     display: none;
 }
-li{
-    list-style: none;
-    color: white;
-
-}img{
+.opcoesPagamento{
     display: none;
-    max-width: 300px ;
-    
+    text-align: center;
 }
-
+.pagamentoInput{
+    display: none;
+    text-align: center;    
+}
+.imgBoleto{
+    max-width: 300px;
+    max-height: 100px;
+}

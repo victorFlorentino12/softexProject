@@ -9,41 +9,61 @@
 <body>
     <section class="list">
         <div class = "center">
-            <div class="listProdutos">
-                <h1>
-                    Lista de produtos
-                </h1>
+            <h1>
+                Lista de produtos
+            </h1>
+            <div id="listProdutos" class="listProdutos">
+                
                 <li>
                     <ol>1.Arroz</ol>
                     <ol>2.Feijão</ol>
                     <ol>3.Macarrão</ol>
     
                 </li>
-                <input type="number" id="txtNomeProduto">
-                <input type="button" value="Valor" onclick="comprar()">
+                <input type="number" id="txtNomeProduto" class="input1" >
+                <input type="button" value="Valor" onclick="comprar()" class="botaoValor">
             
             </div>
-        </div>
+       
         
         
-        <div id="bts" >
-            <img src="img.jpg" id="img">
-            <img src="img2.avif" id="img2">
-            <div id="res" class="div">
+            <div class ="simOuNao" id="bts" >
+                    <img src="a.jpeg" id="img">
+                    <img src="img2.avif" id="img2">
+           
+                <div id="res" class="div">
+                
+                </div>
+                <input type="button" value="Comprar" onclick="pagar()" id="btComprar" class="botaoValor" >
+                <input type="button" value="Voltar" onclick="voltar()" id="btComprar" class="botaoValor">
             
             </div>
-            <input type="button" value="comprar" onclick="pagar()" id="btComprar" class="e">
-            <input type="button" value="Voltar" onclick="pagar()" id="btComprar" class="e">
-            
         </div>
     </section>
     <section class="pagamento">
         <div class="center">
-            <div class="opçoesPagamento">
-                <input type="button" value="PIX">
-                <input type="button" value="Boleto">
-                <input type="button" value="Cartão">
+            <div class="opcoesPagamento" id="opcoesPagamento">
+                <input type="button" value="PIX" class="botaoValor" onclick="pix()">
+                <input type="button" value="Boleto" class="botaoValor" onclick="boleto()">
+                <input type="button" value="Cartão" class="botaoValor" onclick="cartao()">
                 
+            </div>
+            <div id="pix1" class="pagamentoInput">
+                <h3>Qual seu pix</h3>
+                <input type="text" id="text3">
+                <input type="button" value="Enviar" onclick="voltar()">
+                <input type="button" value="Voltar" onclick="voltar()">
+            </div>
+            <div id="boleto1" class="pagamentoInput">
+                <h3>Esse é seu boleto</h3>
+                <img src="boleto.png" class="imgBoleto">
+                <input type="button" value="Voltar" onclick="voltar()">
+            </div>
+            <div id="cartao1" class="pagamentoInput">
+                <h3>Qual o numero do cartão</h3>
+                <input type="text">
+                <input type="button" value="Enviar" onclick="voltar()">
+                <input type="button" value="Voltar" onclick="voltar()">
             </div>
         </div>
     </section>
