@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    
+}
+body{
+       background-image: url(bcg.png); 
+       height: 500px;
+       text-align: center;
+       background-position: center;
+       background-size: cover;
+    }
+div{
+    
+    border-radius: 50px;
+    font-size: 50px;
+
+
+}
+div > h1 {
+    color: white;
+}
+#res{
+    padding-left:100px ;
+}
+#bts{
+    display: none;
+}
+li{
+    list-style: none;
+    color: white;
+
+}img{
+    display: none;
+    max-width: 300px ;
+    
+}
+
+
