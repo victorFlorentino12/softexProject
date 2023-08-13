@@ -11,16 +11,25 @@ body{
        text-align: center;
        background-position: center;
        background-size: cover;
+       background-repeat: no-repeat;
     }
-div{
-    
-    border-radius: 50px;
-    font-size: 50px;
-
-
+center{
+    text-align: center;
+    width: 100%;
 }
-div > h1 {
+.listProdutos{
+    padding: 10px;
+}
+.listProdutos > h1 {
     color: white;
+    font-size: 40px;
+}
+.listProdutos > li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.listProdutos ol{
+    padding: 5px;    
 }
 #res{
     padding-left:100px ;
@@ -37,5 +46,4 @@ li{
     max-width: 300px ;
     
 }
-
 
