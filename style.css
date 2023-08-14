@@ -40,10 +40,18 @@ center{
     border-radius: 50px;
 }
 .botaoValor{
-    width: 80px;
+    width: 90px;
     border-radius: 50px;
     border-color: none;
 }
+
+.botaoValor:hover{
+    width: 90px;
+    border-radius: 50px;
+    border-color: none;
+    font-weight: bold;
+}
+
 .simOuNao{
     text-align: center;
     width: 50%;
@@ -60,6 +68,11 @@ center{
     margin-left: 22%;
     display: none;
 }
+
+#img3{
+    margin-left: 22%;
+    display: none;
+}
 .opcoesPagamento{
     display: none;
     text-align: center;
@@ -71,4 +84,14 @@ center{
 .imgBoleto{
     max-width: 300px;
     max-height: 100px;
+}
+
+.imgProduto {
+    width: auto;
+    height: 200px;
+}
+
+.faixa {
+    background-color: rgb(181, 181, 189);
+    margin: 10px;
 }

@@ -28,8 +28,9 @@
         
         
             <div class ="simOuNao" id="bts" >
-                    <img src="a.jpeg" id="img">
-                    <img src="img2.avif" id="img2">
+                    <img src="arroz.png" id="img" class="imgProduto">
+                    <img src="img2.png" id="img2" class="imgProduto">
+                    <img src="macarrao.png" id="img3" class="imgProduto">
            
                 <div id="res" class="div">
                 
@@ -43,24 +44,27 @@
     <section class="pagamento">
         <div class="center">
             <div class="opcoesPagamento" id="opcoesPagamento">
+                <h1 class="faixa">Opções de Pagamento</h1>
                 <input type="button" value="PIX" class="botaoValor" onclick="pix()">
                 <input type="button" value="Boleto" class="botaoValor" onclick="boleto()">
                 <input type="button" value="Cartão" class="botaoValor" onclick="cartao()">
                 
             </div>
             <div id="pix1" class="pagamentoInput">
-                <h3>Qual seu pix</h3>
-                <input type="text" id="text3">
+                <h3>Esta é a chave Pix</h3>
+                <img src="pix.png" class="imgBoleto">
+                <!--<input type="text" id="text3">
                 <input type="button" value="Enviar" onclick="voltar()">
-                <input type="button" value="Voltar" onclick="voltar()">
+                <input type="button" value="Voltar" onclick="voltar()">-->
+                <p><input type="button" value="Voltar" onclick="voltar()"></p>
             </div>
             <div id="boleto1" class="pagamentoInput">
                 <h3>Esse é seu boleto</h3>
                 <img src="boleto.png" class="imgBoleto">
-                <input type="button" value="Voltar" onclick="voltar()">
+                <p><input type="button" value="Voltar" onclick="voltar()"></p>
             </div>
             <div id="cartao1" class="pagamentoInput">
-                <h3>Qual o numero do cartão</h3>
+                <h3>Preencha os dados do cartão</h3>
                 <input type="text">
                 <input type="button" value="Enviar" onclick="voltar()">
                 <input type="button" value="Voltar" onclick="voltar()">
